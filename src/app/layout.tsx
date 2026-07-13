@@ -23,11 +23,11 @@ const productionUrl = "https://farhananalyst.com";
 export const metadata: Metadata = {
   metadataBase: new URL(productionUrl),
   title: {
-    default: "Farhan Ahmad — Finance & Accounting Graduate",
+    default: "Farhan Ahmad — Financial Analyst & Finance Graduate",
     template: "%s | Farhan Ahmad",
   },
   description:
-    "Dublin-based MSc International Accounting & Finance graduate focused on financial modelling, treasury risk, reporting and finance operations across Ireland.",
+    "Dublin-based MSc International Accounting & Finance graduate with standout results in financial modelling, treasury risk and practical finance operations.",
   keywords: [
     "Farhan Ahmad",
     "finance graduate Ireland",
@@ -47,16 +47,16 @@ export const metadata: Metadata = {
     type: "profile",
     locale: "en_IE",
     url: "/",
-    siteName: "Farhan Ahmad — Finance & Accounting",
-    title: "Farhan Ahmad — Complex numbers. Clear decisions.",
+    siteName: "Farhan Ahmad — Financial Analyst Portfolio",
+    title: "Farhan Ahmad — Finance & Accounting Analyst",
     description:
-      "MSc-qualified finance and accounting graduate in Dublin. Modelling, treasury, reporting and reliable operations.",
+      "MSc-qualified finance graduate in Dublin with strong modelling, treasury, reporting and operational experience.",
     firstName: "Farhan",
     lastName: "Ahmad",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Farhan Ahmad — Finance & Accounting Graduate",
+    title: "Farhan Ahmad — Finance & Accounting Analyst",
     description:
       "Dublin-based finance graduate with standout results in modelling, treasury risk and financial management.",
   },
@@ -64,7 +64,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   colorScheme: "dark",
-  themeColor: "#050a11",
+  themeColor: "#070709",
 };
 
 export default function RootLayout({

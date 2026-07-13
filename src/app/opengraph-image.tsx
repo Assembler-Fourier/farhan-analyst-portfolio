@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "Farhan Ahmad — Finance and Accounting Graduate";
+export const alt = "Farhan Ahmad — Financial Analyst and Finance Graduate";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -14,10 +14,10 @@ export default function OpenGraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          padding: "52px 58px",
-          color: "#f5f8fb",
+          padding: "54px 62px",
+          color: "#f7f6fb",
           background:
-            "radial-gradient(circle at 82% 28%, rgba(99,243,207,.18), transparent 27%), linear-gradient(135deg, #050a11, #0b1624)",
+            "radial-gradient(circle at 82% 32%, rgba(111,85,255,.35), transparent 29%), linear-gradient(135deg, #070709, #12101d)",
           position: "relative",
           overflow: "hidden",
         }}
@@ -25,64 +25,54 @@ export default function OpenGraphImage() {
         <div
           style={{
             position: "absolute",
-            width: 500,
-            height: 500,
-            right: -30,
-            top: 70,
+            width: 420,
+            height: 420,
+            right: -40,
+            top: 108,
             display: "flex",
-            border: "2px solid rgba(99,243,207,.32)",
+            border: "2px solid rgba(181,168,255,.30)",
             borderRadius: "50%",
           }}
         />
-        <div
-          style={{
-            position: "absolute",
-            width: 320,
-            height: 320,
-            right: 60,
-            top: 160,
-            display: "flex",
-            border: "2px solid rgba(105,183,255,.42)",
-            transform: "rotate(28deg)",
-          }}
-        />
-        <div style={{ display: "flex", alignItems: "center", gap: 14, fontSize: 20 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
           <span
             style={{
               display: "flex",
-              padding: "8px 10px",
-              border: "1px solid rgba(99,243,207,.4)",
-              borderRadius: 8,
-              color: "#c8fff0",
+              padding: "9px 11px",
+              borderRadius: 9,
+              background: "#6f55ff",
               fontWeight: 800,
+              fontSize: 18,
             }}
           >
             FA
           </span>
-          <span style={{ color: "#91a2aa", letterSpacing: ".12em", fontSize: 14 }}>
+          <span style={{ color: "#aaa8b3", letterSpacing: ".12em", fontSize: 14 }}>
             DUBLIN · IRELAND · STAMP 1G
           </span>
         </div>
-        <div style={{ display: "flex", flexDirection: "column", maxWidth: 870 }}>
-          <div style={{ display: "flex", color: "#63f3cf", fontSize: 20, letterSpacing: ".12em" }}>
+
+        <div style={{ display: "flex", flexDirection: "column", maxWidth: 900 }}>
+          <div style={{ display: "flex", color: "#b5a8ff", fontSize: 19, letterSpacing: ".11em" }}>
             FARHAN AHMAD · FINANCE &amp; ACCOUNTING
           </div>
           <div
             style={{
               display: "flex",
               flexDirection: "column",
-              marginTop: 18,
-              fontSize: 82,
-              lineHeight: 0.92,
-              letterSpacing: "-.06em",
-              fontWeight: 700,
+              marginTop: 20,
+              fontSize: 77,
+              lineHeight: 0.95,
+              letterSpacing: "-.055em",
+              fontWeight: 750,
             }}
           >
-            <span>Complex numbers.</span>
-            <span style={{ color: "#c8fff0" }}>Clear decisions.</span>
+            <span>Financial thinking.</span>
+            <span style={{ color: "#8a72ff" }}>Practical experience.</span>
           </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between", color: "#91a2aa", fontSize: 17 }}>
+
+        <div style={{ display: "flex", justifyContent: "space-between", color: "#aaa8b3", fontSize: 16 }}>
           <span>MSc INTERNATIONAL ACCOUNTING &amp; FINANCE</span>
           <span>91% FINANCIAL MODELLING</span>
         </div>
