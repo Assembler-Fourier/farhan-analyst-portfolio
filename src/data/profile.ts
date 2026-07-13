@@ -2,6 +2,8 @@ export const contact = {
   email: "farhanahmad4247@gmail.com",
   phone: "+353899504247",
   phoneDisplay: "+353 89 950 4247",
+  whatsapp:
+    "https://wa.me/353899504247?text=Hi%20Farhan%2C%20I%20saw%20your%20finance%20portfolio%20and%20wanted%20to%20connect.",
   linkedin:
     "https://www.linkedin.com/in/farhan-ahmad-93645a34a/",
 };

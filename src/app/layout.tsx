@@ -1,5 +1,5 @@
 import type { Metadata, Viewport } from "next";
-import { Geist, Geist_Mono, Instrument_Serif } from "next/font/google";
+import { Geist, Geist_Mono, Space_Grotesk } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,11 +12,10 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const instrumentSerif = Instrument_Serif({
-  variable: "--font-instrument-serif",
+const spaceGrotesk = Space_Grotesk({
+  variable: "--font-space-grotesk",
   subsets: ["latin"],
-  weight: "400",
-  style: ["normal", "italic"],
+  weight: ["500", "600", "700"],
 });
 
 const productionUrl = "https://farhananalyst.com";
@@ -49,7 +48,7 @@ export const metadata: Metadata = {
     locale: "en_IE",
     url: "/",
     siteName: "Farhan Ahmad — Finance & Accounting",
-    title: "Farhan Ahmad — Numbers, made useful.",
+    title: "Farhan Ahmad — Complex numbers. Clear decisions.",
     description:
       "MSc-qualified finance and accounting graduate in Dublin. Modelling, treasury, reporting and reliable operations.",
     firstName: "Farhan",
@@ -65,7 +64,7 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = {
   colorScheme: "dark",
-  themeColor: "#0e0f0b",
+  themeColor: "#050a11",
 };
 
 export default function RootLayout({
@@ -76,7 +75,7 @@ export default function RootLayout({
   return (
     <html
       lang="en-IE"
-      className={`${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable} antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} ${spaceGrotesk.variable} antialiased`}
     >
       <body>{children}</body>
     </html>

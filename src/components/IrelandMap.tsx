@@ -52,7 +52,7 @@ export function IrelandMap() {
             cy={active.y}
             r="17"
             fill="none"
-            stroke="#c8ff37"
+            stroke="#63f3cf"
             opacity="0.35"
             filter="url(#map-glow)"
           />

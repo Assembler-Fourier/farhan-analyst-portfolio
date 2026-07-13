@@ -14,9 +14,10 @@ export default function OpenGraphImage() {
           display: "flex",
           flexDirection: "column",
           justifyContent: "space-between",
-          padding: "58px 64px",
-          color: "#f0ede2",
-          background: "#0e0f0b",
+          padding: "52px 58px",
+          color: "#f5f8fb",
+          background:
+            "radial-gradient(circle at 82% 28%, rgba(99,243,207,.18), transparent 27%), linear-gradient(135deg, #050a11, #0b1624)",
           position: "relative",
           overflow: "hidden",
         }}
@@ -24,64 +25,66 @@ export default function OpenGraphImage() {
         <div
           style={{
             position: "absolute",
-            width: 520,
-            height: 520,
-            right: -60,
-            top: 55,
+            width: 500,
+            height: 500,
+            right: -30,
+            top: 70,
             display: "flex",
-            border: "2px solid rgba(202,255,60,.55)",
+            border: "2px solid rgba(99,243,207,.32)",
             borderRadius: "50%",
           }}
         />
         <div
           style={{
             position: "absolute",
-            width: 330,
-            height: 330,
-            right: 35,
-            top: 150,
+            width: 320,
+            height: 320,
+            right: 60,
+            top: 160,
             display: "flex",
-            border: "2px solid rgba(114,117,255,.7)",
+            border: "2px solid rgba(105,183,255,.42)",
             transform: "rotate(28deg)",
           }}
         />
-        <div style={{ display: "flex", alignItems: "center", gap: 16, fontSize: 22 }}>
-          <span style={{ fontWeight: 800, letterSpacing: "-0.08em" }}>FA</span>
+        <div style={{ display: "flex", alignItems: "center", gap: 14, fontSize: 20 }}>
           <span
             style={{
-              width: 8,
-              height: 8,
               display: "flex",
-              borderRadius: "50%",
-              background: "#caff3c",
+              padding: "8px 10px",
+              border: "1px solid rgba(99,243,207,.4)",
+              borderRadius: 8,
+              color: "#c8fff0",
+              fontWeight: 800,
             }}
-          />
-          <span style={{ color: "#a5a69f", letterSpacing: ".12em", fontSize: 14 }}>
-            DUBLIN · IRELAND
+          >
+            FA
+          </span>
+          <span style={{ color: "#91a2aa", letterSpacing: ".12em", fontSize: 14 }}>
+            DUBLIN · IRELAND · STAMP 1G
           </span>
         </div>
-        <div style={{ display: "flex", flexDirection: "column" }}>
-          <div style={{ display: "flex", color: "#caff3c", fontSize: 22, letterSpacing: ".12em" }}>
-            FINANCE &amp; ACCOUNTING
+        <div style={{ display: "flex", flexDirection: "column", maxWidth: 870 }}>
+          <div style={{ display: "flex", color: "#63f3cf", fontSize: 20, letterSpacing: ".12em" }}>
+            FARHAN AHMAD · FINANCE &amp; ACCOUNTING
           </div>
           <div
             style={{
               display: "flex",
               flexDirection: "column",
               marginTop: 18,
-              fontSize: 98,
-              lineHeight: 0.88,
-              letterSpacing: "-.07em",
-              fontWeight: 650,
+              fontSize: 82,
+              lineHeight: 0.92,
+              letterSpacing: "-.06em",
+              fontWeight: 700,
             }}
           >
-            <span>Numbers,</span>
-            <span>made useful.</span>
+            <span>Complex numbers.</span>
+            <span style={{ color: "#c8fff0" }}>Clear decisions.</span>
           </div>
         </div>
-        <div style={{ display: "flex", justifyContent: "space-between", color: "#a5a69f", fontSize: 18 }}>
-          <span>FARHAN AHMAD</span>
-          <span>MSc · MODELLING · TREASURY · OPERATIONS</span>
+        <div style={{ display: "flex", justifyContent: "space-between", color: "#91a2aa", fontSize: 17 }}>
+          <span>MSc INTERNATIONAL ACCOUNTING &amp; FINANCE</span>
+          <span>91% FINANCIAL MODELLING</span>
         </div>
       </div>
     ),

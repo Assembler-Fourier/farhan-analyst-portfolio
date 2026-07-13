@@ -8,8 +8,8 @@ export default function manifest(): MetadataRoute.Manifest {
       "Portfolio of Farhan Ahmad, a Dublin-based finance and accounting graduate.",
     start_url: "/",
     display: "standalone",
-    background_color: "#0e0f0b",
-    theme_color: "#caff3c",
+    background_color: "#050a11",
+    theme_color: "#63f3cf",
     icons: [
       {
         src: "/icon.svg",

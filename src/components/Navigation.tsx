@@ -5,7 +5,7 @@ import { ArrowUpRight, Menu, X } from "lucide-react";
 import { contact } from "@/data/profile";
 
 const navItems = [
-  { label: "Profile", href: "#profile" },
+  { label: "Proof", href: "#proof" },
   { label: "Role fit", href: "#role-fit" },
   { label: "Experience", href: "#experience" },
   { label: "Ireland", href: "#ireland" },
@@ -32,18 +32,21 @@ export function Navigation() {
   }, []);
 
   return (
-    <header className="site-nav">
+    <header className="site-header" aria-label="Primary navigation">
       <div
-        className="scroll-progress"
+        className="page-progress"
         aria-hidden="true"
         style={{ transform: `scaleX(${progress})` }}
       />
-      <a className="monogram" href="#top" aria-label="Farhan Ahmad — back to top">
-        <span>FA</span>
-        <span className="monogram-dot" />
+      <a className="brand" href="#top" aria-label="Farhan Ahmad portfolio home">
+        <span className="brand-mark">FA</span>
+        <span className="brand-copy">
+          <strong>Farhan Ahmad</strong>
+          <small>Finance + accounting</small>
+        </span>
       </a>
 
-      <nav className="desktop-nav" aria-label="Primary navigation">
+      <nav className="nav-links" aria-label="Portfolio sections">
         {navItems.map((item) => (
           <a key={item.href} href={item.href}>
             {item.label}
@@ -51,9 +54,9 @@ export function Navigation() {
         ))}
       </nav>
 
-      <a className="nav-cta" href={`mailto:${contact.email}`}>
+      <a className="header-cta" href={`mailto:${contact.email}`}>
         Let&apos;s talk
-        <ArrowUpRight aria-hidden="true" size={16} strokeWidth={1.7} />
+        <ArrowUpRight aria-hidden="true" size={16} />
       </a>
 
       <button
@@ -73,11 +76,7 @@ export function Navigation() {
         aria-hidden={!menuOpen}
       >
         {navItems.map((item, index) => (
-          <a
-            key={item.href}
-            href={item.href}
-            onClick={() => setMenuOpen(false)}
-          >
+          <a key={item.href} href={item.href} onClick={() => setMenuOpen(false)}>
             <span>0{index + 1}</span>
             {item.label}
           </a>

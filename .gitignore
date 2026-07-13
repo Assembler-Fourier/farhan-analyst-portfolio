@@ -38,8 +38,11 @@ yarn-error.log*
 
 # local visual verification
 browser-*.png
+redesign-*.png
 dev.log
 dev.err.log
+prod.log
+prod.err.log
 
 # typescript
 *.tsbuildinfo
